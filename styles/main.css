@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-@-ms-viewport {
-  width: device-width;
-}
 * {
   box-sizing: border-box;
 }
@@ -156,4 +149,10 @@ footer ul {
 .social-media:hover {
   color: whitesmoke;
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width;
+}
