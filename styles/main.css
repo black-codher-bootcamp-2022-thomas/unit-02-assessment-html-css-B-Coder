@@ -26,13 +26,13 @@ img {
   height: 300px;
   object-fit: cover;
 }
-article-1 {
+.about-me {
   float: left;
   padding: 20px;
   width: 80%;
   background-color: white;
 }
-article-2 {
+.projects {
   float: left;
   padding: 20px;
   width: 80%;
@@ -42,7 +42,7 @@ hr.dashed {
   border-top: 2px dashed rgb(216, 215, 215);
   width: 70%;
 }
-article-3 {
+.experience {
   float: left;
   padding: 20px;
   width: 80%;
