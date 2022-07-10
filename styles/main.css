@@ -10,6 +10,7 @@ header {
   text-align: center;
   font-size: 35px;
   color: white;
+  max-width: 100%;
 }
 nav {
   -webkit-flex: 1;
@@ -20,6 +21,7 @@ nav {
   height: 2600px;
   background: whitesmoke;
   padding: 20px;
+  max-width: 100%;
 }
 img {
   width: 260px;
@@ -31,32 +33,38 @@ img {
   padding: 20px;
   width: 80%;
   background-color: white;
+  max-width: 100%;
 }
 .projects {
   float: left;
   padding: 20px;
   width: 80%;
   background-color: white;
+  max-width: 100%;
 }
 hr.dashed {
   border-top: 2px dashed rgb(216, 215, 215);
   width: 70%;
+  max-width: 100%;
 }
 .experience {
   float: left;
   padding: 20px;
   width: 80%;
   background-color: white;
+  max-width: 100%;
 }
 section::after {
   content: "";
   display: table;
   clear: both;
+  max-width: 100%;
 }
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .timeline::after {
@@ -68,12 +76,14 @@ section::after {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  max-width: 100%;
 }
 .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
+  max-width: 100%;
 }
 .container::after {
   content: '';
@@ -86,6 +96,7 @@ section::after {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+  max-width: 100%;
 }
 .left {
   left: 0;
@@ -104,6 +115,7 @@ section::after {
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent whitesmoke;
+  max-width: 100%;
 }
 .right::before {
   content: " ";
@@ -116,6 +128,7 @@ section::after {
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent transparent transparent whitesmoke;
+  max-width: 100%;
 }
 .right::after {
   left: -16px;
@@ -125,6 +138,7 @@ section::after {
   background-color: whitesmoke;
   position: relative;
   border-radius: 6px;
+  max-width: 100%;
 }
 
 footer {
@@ -136,6 +150,7 @@ footer {
   padding-top: 20px;
   text-align: center;
   color: white;
+  max-width: 100%;
 }
 footer ul {
   list-style-type: none;
