@@ -8,14 +8,14 @@ body {
 
 .nav-sidebar {
   height: 100%;
-  width: 60px;
   position: fixed;
   background-color: whitesmoke;
 }
 
 .page-container {
   background-color: rgb(30, 170, 226);
-  padding: 30px;
+  padding: 20px;
+  position: sticky;
   text-align: center;
   font-size: 35px;
   color: white;
